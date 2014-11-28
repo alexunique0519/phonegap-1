@@ -40,9 +40,9 @@
       </div>
 -->
       <div ng-repeat="d in data" class="list-group-item media">
-        <div class="pull-left">
-        <img width="200" src="{{d.imageURL}}"/>
-        </div>
+      
+        <img  src="{{d.imageURL}}"/><br>
+        
          
         <div  ng-click='redirect(d.id)' style="text-decoration:none;" class="media-body ng-binding">  
             <h3  class="media-heading"> {{d.title}} </h3><p >{{d.timestamp}}</p>
