@@ -7,11 +7,13 @@
  * # MainCtrl
  * Controller of the phonegapApp
  */
-angular.module('phonegapApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+var App = angular.module('phonegapApp')
+
+App.controller("MainCtrl", ['$scope', '$location', function($scope, $location) {
+
+       $scope.redirect= function(){
+        $location.path('/detail/10')
+       }
+       
+    }
+]);

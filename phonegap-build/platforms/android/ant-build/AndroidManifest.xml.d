@@ -1,2 +1,2 @@
-D:\Projects\myApp\platforms\android\ant-build\AndroidManifest.xml : \
-D:\Projects\myApp\platforms\android\AndroidManifest.xml \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\AndroidManifest.xml : \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\AndroidManifest.xml \
