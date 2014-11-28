@@ -1,4 +1,4 @@
-<div class="scrollable">
+<div class="scrollable animated bounceInUp">
     <div class="scrollable-content">
 
  <div class="list-group">
@@ -39,18 +39,16 @@
         </div>
       </div>
 -->
-      <div class="list-group-item media">
-        <div class="pull-right">
-       
+      <div ng-repeat="d in data" class="list-group-item media">
+        <div class="pull-left">
+        <img width="200" src="{{d.imageURL}}"/>
         </div>
          
-        <div ng-click='redirect()' style="text-decoration:none;" class="media-body ng-binding">   <img style="float:left; margin-right:5px;" src="http://i.cbc.ca/1.2525800.1391706268!/fileImage/httpImage/image.jpg_gen/derivatives/original_300/macdougall-steel.jpg"/>
-            <h3 class="media-heading">
-Canada's GDP growing at 2.8% pace
-</h3>
-         
-        Canada's gross domestic product expanded at a 2.8 per cent annual pace in the past three months, Statistics Canada said today, much better than expected by economists.
-
+        <div  ng-click='redirect(d.id)' style="text-decoration:none;" class="media-body ng-binding">  
+            <h3  class="media-heading"> {{d.title}} </h3><p >{{d.timestamp}}</p>
+         <p style="height: 50px;">      {{d.description}}
+</p>
+  
 
         </div>
            
