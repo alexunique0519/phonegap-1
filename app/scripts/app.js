@@ -8,7 +8,7 @@ var baseURL= "http://firstphp-alexunique0519.rhcloud.com";
  *
  * Main module of the application.
  */
-var App= angular
+angular
   .module('phonegapApp', [
     'ngAnimate',
     'ngAria',
@@ -19,9 +19,9 @@ var App= angular
     'ngSanitize',
     'ngTouch',
     'mobile-angular-ui',
-    'ngCordova',
+    'ngCordova'
   ])
-  App.config(function ($routeProvider) {
+  .config(function ($routeProvider) {
       $routeProvider
         .when('/', {
             templateUrl: 'views/main.html',
@@ -37,8 +37,7 @@ var App= angular
       
         .otherwise({
             redirectTo: '/'
-        }); 
+        });
     
     
   });
-
