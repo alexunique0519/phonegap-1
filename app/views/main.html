@@ -1,3 +1,4 @@
+
 <div class="scrollable animated bounceInUp">
     <div class="scrollable-content">
 
@@ -39,14 +40,15 @@
         </div>
       </div>
 -->
-      <div ng-repeat="d in data" class="list-group-item media">
+      <div id="newslist" ng-repeat="d in data | orderBy:'timestamp':true" class="list-group-item media">
       
-        <img  src="{{d.imageURL}}"/><br>
+       
         
          
         <div  ng-click='redirect(d.id)' style="text-decoration:none;" class="media-body ng-binding">  
-            <h3  class="media-heading"> {{d.title}} </h3><p >{{d.timestamp}}</p>
-         <p style="height: 50px;">      {{d.description}}
+             <img  src="{{d.imageURL}}"/><br>
+            <h3 id="headline"  class="media-heading"> {{d.title}} </h3><p >{{d.timestamp | timeago}}</p>
+         <p id="description" >      {{d.description}}
 </p>
   
 

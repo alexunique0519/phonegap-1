@@ -44,9 +44,9 @@
        
         </div>
         <div  class="media-body ng-binding">   <img src="{{data.imageURL}}" />
-            <h3 class="media-heading">
+            <h3 id="headline" class="media-heading">
                 {{data.title}}
-</h3>
+</h3><p>{{data.timestamp | timeago}}</p>
      {{data.description}}
         </div>
       </div>
