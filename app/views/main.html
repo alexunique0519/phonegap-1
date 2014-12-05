@@ -1,9 +1,8 @@
-
 <div class="scrollable animated bounceInUp">
     <div class="scrollable-content">
 
- <div class="list-group">
-   <!--   <div class="list-group-item">
+        <div class="list-group">
+            <!--   <div class="list-group-item">
         <h1>Welcome<br>
         <small>This is a demo of Mobile Angular UI</small>
         </h1>
@@ -40,23 +39,25 @@
         </div>
       </div>
 -->
-      <div id="newslist" ng-repeat="d in data | orderBy:'timestamp':true" class="list-group-item media">
-      
-       
-        
-         
-        <div  ng-click='redirect(d.id)' style="text-decoration:none;" class="media-body ng-binding">  
-             <img  src="{{d.imageURL}}"/><br>
-            <h3 id="headline"  class="media-heading"> {{d.title}} </h3><p >{{d.timestamp | timeago}}</p>
-         <p id="description" >      {{d.description}}
-</p>
-  
+            <div id="newslist" ng-repeat="d in data | orderBy:'timestamp':true" class="list-group-item media">
+
+
+
+
+                <div ng-click='redirect(d.id)' style="text-decoration:none;" class="media-body ng-binding">
+                    <img src="{{d.imageURL}}" />
+                    <br>
+                    <h3 id="headline" class="media-heading"> {{d.title}} </h3>
+                    <p>{{d.timestamp | timeago}}</p>
+                    <p id="description">{{d.description}}
+                    </p>
+
+
+                </div>
+
+            </div>
 
         </div>
-           
-      </div>
-
-    </div>
     </div>
 </div>
 

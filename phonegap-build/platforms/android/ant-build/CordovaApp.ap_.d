@@ -42,9 +42,15 @@ D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\fonts\fonta
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\fonts\FontAwesome.otf \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\images\yeoman.a6b33b1c.png \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.verso.cordova.clipboard \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\hu.dpal.phonegap.plugins.PinDialog \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\org.apache.cordova.battery-status \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.verso.cordova.clipboard\www \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\com.verso.cordova.clipboard\www\clipboard.js \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\hu.dpal.phonegap.plugins.PinDialog\www \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\hu.dpal.phonegap.plugins.PinDialog\www\pin.js \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\org.apache.cordova.battery-status\www \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\plugins\org.apache.cordova.battery-status\www\battery.js \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\icon \
@@ -62,7 +68,7 @@ D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\android\screen-xxhdpi-potrait.png \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\android\screen-xxxhdpi-potrait.png \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\oldieshim.d41d8cd9.js \
-D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\scripts.74c50eb2.js \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\scripts.9b7dcca7.js \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\vendor.145db2c6.js \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\styles\main.d8030aef.css \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\styles\vendor.d4aeb0da.css \

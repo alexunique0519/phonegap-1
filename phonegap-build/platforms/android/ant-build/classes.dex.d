@@ -12,6 +12,13 @@ D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\com\
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\com\plugin\gcm\GCMIntentService.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\com\plugin\gcm\PushHandlerActivity.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\com\plugin\gcm\PushPlugin.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\com\verso\cordova\clipboard\Clipboard.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog$1$1.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog$1$2.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog$1$3.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog$1$4.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog$1.class \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\dpal\phonegap\plugins\PinDialog.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener$1.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\dexedLibs\classes-0c75e94cc7aa7ac013fadccc47a5dea9.jar \

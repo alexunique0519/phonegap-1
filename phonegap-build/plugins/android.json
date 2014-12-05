@@ -9,11 +9,19 @@
                 "parents": {
                     "/*": [
                         {
+                            "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PinDialog\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.PinDialog\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
+                            "xml": "<feature name=\"Clipboard\"><param name=\"android-package\" value=\"com.verso.cordova.clipboard.Clipboard\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -70,10 +78,16 @@
         }
     },
     "installed_plugins": {
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "hu.dpal.phonegap.plugins.PinDialog": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
         "org.apache.cordova.battery-status": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
-        "com.phonegap.plugins.PushPlugin": {
+        "com.verso.cordova.clipboard": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },

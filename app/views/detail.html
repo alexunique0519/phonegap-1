@@ -1,8 +1,8 @@
 <div class="scrollable animated bounceInUp">
     <div class="scrollable-content">
 
- <div class="list-group">
-   <!--   <div class="list-group-item">
+        <div class="list-group">
+            <!--   <div class="list-group-item">
         <h1>Welcome<br>
         <small>This is a demo of Mobile Angular UI</small>
         </h1>
@@ -39,19 +39,21 @@
         </div>
       </div>
 -->
-      <div class="list-group-item media">
-        <div class="pull-right">
-       
-        </div>
-        <div  class="media-body ng-binding">   <img src="{{data.imageURL}}" />
-            <h3 id="headline" class="media-heading">
-                {{data.title}}
-</h3><p>{{data.timestamp | timeago}}</p>
-     {{data.description}}
-        </div>
-      </div>
+            <div class="list-group-item media">
+                <div class="pull-right">
 
-    </div>
+                </div>
+                <div class="media-body ng-binding">
+                    <img src="{{data.imageURL}}" />
+                    <h3 id="headline" class="media-heading">
+                {{data.title}}
+</h3>
+                    <p>{{data.timestamp | timeago}}</p>
+                    {{data.description}}
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 

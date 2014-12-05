@@ -10,14 +10,15 @@
 var App = angular.module('phonegapApp')
 
 
-App.factory('news', ['$http', function($http) {
-    return {
-        getAllData: function() {
-            var promise = $http.get(baseURL + "/query_temp.php");
-           
+App.factory('news', ['$http',
+    function ($http) {
+        return {
+            getAllData: function () {
+                var promise = $http.get(baseURL + "/query_temp.php");
 
-            return promise;
-        }
 
-    };
+                return promise;
+            }
+
+        };
 }]);

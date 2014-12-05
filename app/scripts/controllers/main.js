@@ -9,16 +9,17 @@
  */
 var App = angular.module('phonegapApp')
 
-App.controller("MainCtrl", ['$scope', '$location','news', function($scope, $location,news) {
-  
-    $scope.data=[];
-    news.getAllData().then( function(data) {
-     $scope.data=data.data;
-  });
+App.controller("MainCtrl", ['$scope', '$location', 'news',
+    function ($scope, $location, news) {
 
-       $scope.redirect= function(id){
-        $location.path('/detail/'+id);
-       }
-       
+        $scope.data = [];
+        news.getAllData().then(function (data) {
+            $scope.data = data.data;
+        });
+
+        $scope.redirect = function (id) {
+            $location.path('/detail/' + id);
+        }
+
     }
 ]);
