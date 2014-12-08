@@ -68,11 +68,12 @@ D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\android\screen-xxhdpi-potrait.png \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\res\screen\android\screen-xxxhdpi-potrait.png \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\oldieshim.d41d8cd9.js \
-D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\scripts.9b7dcca7.js \
-D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\vendor.145db2c6.js \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\scripts.a6fee5cd.js \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\scripts\vendor.247f78c0.js \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\styles\main.d8030aef.css \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\styles\vendor.d4aeb0da.css \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\views\about.html \
+D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\views\category.html \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\views\detail.html \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\assets\www\views\main.html \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\AndroidManifest.xml \
