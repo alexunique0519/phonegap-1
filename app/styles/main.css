@@ -98,3 +98,38 @@ height: 50px;
 margin-top: 3px;
 margin-bottom: 3px;
 }
+
+
+/*Change angular mobile ui*/
+
+
+.sidebar-left {
+width: 200px;
+}
+.sidebar-left-in .app {
+
+transform: translate3d(200px, 0, 0);
+
+}
+@media (min-width: 1200px) {
+  .sidebar-left {
+    width: 200px;
+  }
+ 
+  .has-sidebar-left .app,
+  .sidebar-left-in .app {
+    margin-left: 200px;
+  }
+ 
+}
+@media (min-width: 768px) {
+  .sidebar-left {
+    width: 200px;
+  }
+ 
+  .has-sidebar-left .app,
+  .sidebar-left-in .app {
+    margin-left: 200px;
+  }
+ 
+}
