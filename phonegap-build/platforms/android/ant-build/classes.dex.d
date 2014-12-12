@@ -22,5 +22,3 @@ D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\hu\d
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener$1.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener.class \
 D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\dexedLibs\classes-0c75e94cc7aa7ac013fadccc47a5dea9.jar \
-D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\dexedLibs\gcm-22700a7f5bb3c29abfd52ce2eeebfecc.jar \
-D:\Projects\php\phonegap\phonegap-build\platforms\android\ant-build\dexedLibs\android-support-v13-8f99b306323bbc00cb85e40e33608afa.jar \
